@@ -15,8 +15,8 @@ $(document).ready(function(){
 
             d3.select("#graph")
             .append("svg")
-            .attr("width",w)
-            .attr("height",h);
+            .attr("width", w)
+            .attr("height", h);
 
             var svg = d3.select("svg")
 

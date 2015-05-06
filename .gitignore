@@ -51,7 +51,6 @@ coverage.xml
 *.log
 settings.py
 venv/
-api_key.txt
 
 # Sphinx documentation
 docs/_build/
