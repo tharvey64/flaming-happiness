@@ -4,9 +4,10 @@ body{
 }
 
 h1 {
-    margin: 3em 0 1em 0;
+    margin: .25em 0 .25em 0;
     text-align: center;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Libre Baskerville', serif;    
+    color: white;
 }
 
 #results{
@@ -22,9 +23,9 @@ h1 {
 
 #forms {
     height: 25%;
-    width: 50%;
+    width: 52.5%;
     /*max-height: 8em;*/
-    margin: auto;
+    margin: 15em auto;
 }
 #graph {
     height: 42em;
@@ -58,7 +59,7 @@ h1 {
 .container{
     height: 50em;
     width: 90em;
-    margin: 0 1.5em 0 1.5em;
+    margin: auto;
 }
 
 .returned{
@@ -95,8 +96,10 @@ img {
 }
 
 .navbar {
+    width: 100%;
     background: black;
     opacity: .70;
+
 }
 
 .company-list {

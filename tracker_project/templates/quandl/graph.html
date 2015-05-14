@@ -19,18 +19,21 @@
 <link rel="stylesheet" type="text/css" href='{% static "quandl/tooltips.css" %}'/>
 <link rel="stylesheet" type="text/css" href='{% static "quandl/tabs.css" %}'/>
 <link rel="stylesheet" type="text/css" href='{% static "article_feeds/story.css" %}'/>
-<link href='http://fonts.googleapis.com/css?family=Permanent+Marker|News+Cycle' rel='stylesheet' type='text/css'>
-<nav class='navbar navbar-default navbar-static-top'>
-    <button type='button' class='btn btn-block btn-info'><p>What will you search for now?</p></button>
-</nav>
+<link href='http://fonts.googleapis.com/css?family=News+Cycle|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
 </header>
 <body>
-
-<div class="container">
+<nav class='navbar navbar-default navbar-static-top'>
     <h1 id='title'>MARKET TRACKER</h1>
-    <p id='results'>Results</p>
-	<div id="forms">
+        <button type='button' class='btn btn-block btn-info'><p>What will you search for now?</p></button>
+</nav>
+<div class="container">
 
+    
+
+    <p id='results'>Results</p>
+
+	<div id="forms">
         <div class="tabs">
             <ul class="tab-links">
                 <li class="active"><a href="#tab1">Quote</a></li>
@@ -44,9 +47,8 @@
                 <div id="tab3" class="tab"></div>
             </div>
             <div id='loading'><img  src='http://www.ajaxload.info/images/exemples/9.gif'/>
-    </div> 
+            </div> 
         </div>
-       
     </div> 
 
 
@@ -58,7 +60,7 @@
     </div>
     <div class ='returned' id='footer'>
     </div>
-
+   
 </div>	
 
     {% include "quandl/company_form.html" %}
@@ -68,6 +70,9 @@
     {% include "article_feeds/story_template.html" %}
     {% include "twitter/twitter_form.html" %}  
 
-</body>	
+</body>
+
+<footer>
+</footer>
 
 </html>
